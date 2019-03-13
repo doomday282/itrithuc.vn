@@ -1,2 +1,85 @@
 body {
-  font-size: 3rem; }
+  font-family: 'Quicksand', sans-serif !important; }
+
+section#navigation .navbar {
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.16); }
+
+section#navigation .navbar-logo__image {
+  width: 5rem;
+  height: auto; }
+
+section#navigation .nav-menu__link {
+  padding-left: 3rem; }
+
+section#carousel .carousel__style {
+  height: 80vh;
+  width: 100%; }
+
+section#carousel .carousel__image {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  section#carousel .carousel__image.-image-1 {
+    background-image: url("https://i.imgur.com/8C01K9U.jpg"); }
+  section#carousel .carousel__image.-image-2 {
+    background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/mercedes-benz/mbsocialcar/mbsocialcar-mercedes-amg-gt-r/Mercedes-AMG-GT-R-Wallpaper-01.zip_extracted/01-mercedes-amg-gt-r-c-190-wallpaper-1920x1080.jpg"); }
+  section#carousel .carousel__image.-image-3 {
+    background-image: url("https://wallpaperplay.com/walls/full/5/5/4/22163.jpg"); }
+
+section#important-project .title {
+  margin-top: 4rem; }
+  section#important-project .title__main {
+    font-size: 210%;
+    color: #6748ee;
+    font-weight: bold; }
+  section#important-project .title__sub {
+    font-size: 100%; }
+
+section#important-project .line-euclid-line {
+  margin-top: 2.5rem; }
+  section#important-project .line-euclid-line__line {
+    background-color: #6748ee;
+    width: 5rem;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle; }
+  section#important-project .line-euclid-line__euclid {
+    background-color: white;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 2px solid #6748ee;
+    display: inline-block;
+    vertical-align: middle;
+    transform: rotate(45deg); }
+
+section#important-project .product-show-case__product {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100%; }
+  section#important-project .product-show-case__product.-product-image-1 {
+    background-image: url("https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg"); }
+  section#important-project .product-show-case__product.-product-image-2 {
+    background-image: url("https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg"); }
+  section#important-project .product-show-case__product.-product-image-3 {
+    background-image: url("https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg"); }
+
+section#important-project .product-show-case__sub {
+  margin-top: 1.7rem;
+  font-weight: bold;
+  color: #adaeb2; }
+
+section#important-project .product-show-case__title {
+  margin-top: 1.1rem;
+  font-weight: bolder;
+  font-size: 210%;
+  color: #6748ee;
+  line-height: 1.4; }
+
+section#important-project .product-show-case__content {
+  margin-top: 1rem;
+  color: #adaeb2; }
