@@ -1,6 +1,7 @@
 section#important-project {
     .title {
         margin-top: 4rem;
+
         &__main {
             font-size: $text-title;
             color: $primary;
@@ -8,12 +9,13 @@ section#important-project {
         }
 
         &__sub {
-            font-size: $text-sub-title;          
+            font-size: $text-sub-title;
         }
     }
 
     .line-euclid-line {
         margin-top: 2.5rem;
+
         &__line {
             background-color: $primary;
             width: 5rem;
@@ -24,7 +26,7 @@ section#important-project {
 
         &__euclid {
             background-color: white;
-            width: 1.2rem;  
+            width: 1.2rem;
             height: 1.2rem;
             border: 2px solid $primary;
             display: inline-block;
@@ -34,18 +36,21 @@ section#important-project {
     }
 
     .product-show-case {
-        &__product {           
+        &__product {
             background-size: cover;
             background-position: center;
             width: 100%;
             height: auto;
             padding-bottom: 100%;
+
             &.-product-image-1 {
                 background-image: url('https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg');
             }
+
             &.-product-image-2 {
                 background-image: url('https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg');
             }
+
             &.-product-image-3 {
                 background-image: url('https://i.ytimg.com/vi/aN81Np4ZEXk/maxresdefault.jpg');
             }
@@ -73,4 +78,3 @@ section#important-project {
 
     }
 }
-

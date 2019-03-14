@@ -1,0 +1,32 @@
+section#count-down-area {
+
+    .background-image {
+        background-image: linear-gradient(to bottom right, $color-1, $color-2), url('http://demos.casethemes.net/troma/wp-content/uploads/2018/10/bg-counter.jpg?id=158');
+        background-position: center;
+        background-size: cover;
+
+        width: 100%;
+        height: auto;
+               
+    }
+
+    .count-down {
+        padding: 5rem 0 5rem 0;
+        color: $white;
+
+        &__icon {
+            font-size: $icon-big-size;
+        }
+
+        &__number {
+            font-size: $text-title;
+            font-weight: bold;
+        }
+
+        &__sub {
+            font-weight: bold;
+        }
+
+    }
+
+}

@@ -1,0 +1,20 @@
+section#project-complete {
+
+    .project-complete {
+        margin-top: 5rem;
+
+        &__sub {
+            font-size: $text-sub-title;
+            font-weight: bold;
+
+            color: $secondary;
+        }
+
+        &__title {
+            font-size: $text-title;            
+            font-weight: bold;
+
+            color: $primary;
+        }
+    }
+}
