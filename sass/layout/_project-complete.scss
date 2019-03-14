@@ -1,5 +1,6 @@
 section#project-complete {
 
+    // title
     .project-complete {
         margin-top: 5rem;
 
@@ -11,10 +12,84 @@ section#project-complete {
         }
 
         &__title {
-            font-size: $text-title;            
+            font-size: $text-title;
             font-weight: bold;
 
             color: $primary;
         }
     }
+
+    // End title
+
+    // content
+    .project-complete-row {
+        &.-set-margin-top {
+            margin-top: 2rem;
+        }
+    }
+
+    .list-project-complete {
+
+        // &.-background-setting {
+        //     background-position: center;
+        //     background-size: cover;
+        //     border-radius: 50%;
+
+        //     width: 100%; 
+        //     height: 100%;
+        // }
+
+        // &.-circle:after {
+        //     content: "";
+        //     padding-bottom: 100%;
+        //     display: block;
+        // }
+
+        // &.-logo-project-1 {
+        //     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCjjUETO4BfskcPSZ1I_QCqoWZ6gETCZZq-lT_9QpGrwojiV6Bw');
+        // }
+
+        &.-logo-project-2 {
+            background-image: url('https://www.siggraph.org/sites/default/files/org.flat.logo.400_0.jpg');
+        }
+
+        &.-logo-project-3 {
+            background-image: url('https://brandmark.io/logo-rank/random/pepsi.png');
+        }
+
+    }
+
+    .content {
+        margin-top: 2rem;
+
+        &__title {
+            font-size: $text-title-medium;
+            font-weight: bold;
+
+            color: $text-color;
+        }
+
+        &__content {
+            color: $secondary;
+            margin-top: 0.6rem;
+        }
+    }
+    // End content
+
+.test {
+    .col-4 {
+        display: inline-flex;
+    }
+    .img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        &.-circle {
+            content: "";
+          
+            
+        }
+    }
+}
+
 }

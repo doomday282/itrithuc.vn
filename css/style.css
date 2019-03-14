@@ -23,7 +23,7 @@ section#carousel .carousel__image {
   background-repeat: no-repeat;
   background-attachment: fixed; }
   section#carousel .carousel__image.-image-1 {
-    background-image: url("https://i.imgur.com/8C01K9U.jpg"); }
+    background-image: url("https://esossl-a.akamaihd.net/assets/img/cms/media/56274c7523aff0fa1744819a554d7af4_the-halls-of-the-colossus_wallpaper-1920x1080.jpg"); }
   section#carousel .carousel__image.-image-2 {
     background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/mercedes-benz/mbsocialcar/mbsocialcar-mercedes-amg-gt-r/Mercedes-AMG-GT-R-Wallpaper-01.zip_extracted/01-mercedes-amg-gt-r-c-190-wallpaper-1920x1080.jpg"); }
   section#carousel .carousel__image.-image-3 {
@@ -112,3 +112,32 @@ section#project-complete .project-complete {
     font-size: 210%;
     font-weight: bold;
     color: #6748ee; }
+
+section#project-complete .project-complete-row.-set-margin-top {
+  margin-top: 2rem; }
+
+section#project-complete .list-project-complete.-logo-project-2 {
+  background-image: url("https://www.siggraph.org/sites/default/files/org.flat.logo.400_0.jpg"); }
+
+section#project-complete .list-project-complete.-logo-project-3 {
+  background-image: url("https://brandmark.io/logo-rank/random/pepsi.png"); }
+
+section#project-complete .content {
+  margin-top: 2rem; }
+  section#project-complete .content__title {
+    font-size: 150%;
+    font-weight: bold;
+    color: #3f4045; }
+  section#project-complete .content__content {
+    color: #adaeb2;
+    margin-top: 0.6rem; }
+
+section#project-complete .test .col-4 {
+  display: inline-flex; }
+
+section#project-complete .test .img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%; }
+  section#project-complete .test .img.-circle {
+    content: ""; }
