@@ -83,3 +83,32 @@ section#important-project .product-show-case__title {
 section#important-project .product-show-case__content {
   margin-top: 1rem;
   color: #adaeb2; }
+
+section#count-down-area .background-image {
+  background-image: linear-gradient(to bottom right, rgba(1, 93, 199, 0.9), rgba(162, 0, 255, 0.9)), url("http://demos.casethemes.net/troma/wp-content/uploads/2018/10/bg-counter.jpg?id=158");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+
+section#count-down-area .count-down {
+  padding: 5rem 0 5rem 0;
+  color: #ffff; }
+  section#count-down-area .count-down__icon {
+    font-size: 450%; }
+  section#count-down-area .count-down__number {
+    font-size: 210%;
+    font-weight: bold; }
+  section#count-down-area .count-down__sub {
+    font-weight: bold; }
+
+section#project-complete .project-complete {
+  margin-top: 5rem; }
+  section#project-complete .project-complete__sub {
+    font-size: 100%;
+    font-weight: bold;
+    color: #adaeb2; }
+  section#project-complete .project-complete__title {
+    font-size: 210%;
+    font-weight: bold;
+    color: #6748ee; }
