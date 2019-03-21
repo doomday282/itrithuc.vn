@@ -1,7 +1,7 @@
 section#project-complete {
 
     .project-complete {
-        margin-top: 5rem;
+        margin-top: 7rem;
 
         &__sub {
             font-size: $text-sub-title;
@@ -15,6 +15,38 @@ section#project-complete {
             font-weight: bold;
 
             color: $primary;
+        }
+    }
+
+    .list-project {
+        margin-top: 4rem;
+        &__logo-app {         
+
+            .logo-circle {
+                width: 5rem;
+                height: auto;
+                border-radius: 50%;
+                
+            }
+           
+        }
+
+        &__title-app {
+            font-size: $text-product-title;
+            font-weight: bold;
+            margin-top: 1.3rem;
+        }
+
+        &__content-app {
+            color: $secondary;
+            margin-top: 1.3rem;
+
+            text-overflow: ellipsis;
+            overflow: hidden;
+            // white-space: nowrap;
+            height: 4.5rem;
+
+
         }
     }
 }

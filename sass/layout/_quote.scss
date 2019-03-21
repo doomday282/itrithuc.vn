@@ -1,0 +1,27 @@
+section#quote {
+    margin-top: 7rem;
+  .background-quote {
+    background-image: linear-gradient(to right, $color-1, $color-2);
+    padding: 3rem 0 3rem 0;
+    
+
+    .icon-quote {
+      font-size: $icon-quote-size;
+      color: $white;
+      display: flex;
+    }
+
+    .content-quote {
+        color: $white;
+        font-size: $text-quote-content;
+        &__content {
+          
+        }
+
+        &__author {
+         font-weight: bold;
+         margin-top: 1.5rem;
+        }
+    }
+  }
+}

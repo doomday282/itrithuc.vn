@@ -1,6 +1,16 @@
 body {
   font-family: 'Quicksand', sans-serif !important; }
 
+section#project-complete .view-more .btn-primary.-button-style {
+  background-image: linear-gradient(to right, rgba(1, 93, 199, 0.9), rgba(162, 0, 255, 0.9));
+  border: 1px solid;
+  border-radius: 20px;
+  height: 2.5rem;
+  cursor: pointer; }
+
+section#project-complete .view-more .btn-primary.-button-style:hover {
+  background-color: red; }
+
 section#navigation .navbar {
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.16); }
 
@@ -84,26 +94,27 @@ section#important-project .product-show-case__content {
   margin-top: 1rem;
   color: #adaeb2; }
 
-section#count-down-area .background-image {
-  background-image: linear-gradient(to bottom right, rgba(1, 93, 199, 0.9), rgba(162, 0, 255, 0.9)), url("http://demos.casethemes.net/troma/wp-content/uploads/2018/10/bg-counter.jpg?id=158");
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: auto; }
-
-section#count-down-area .count-down {
-  padding: 5rem 0 5rem 0;
-  color: #ffff; }
-  section#count-down-area .count-down__icon {
-    font-size: 450%; }
-  section#count-down-area .count-down__number {
-    font-size: 210%;
-    font-weight: bold; }
-  section#count-down-area .count-down__sub {
-    font-weight: bold; }
+section#count-down-area {
+  margin-top: 7rem; }
+  section#count-down-area .background-image {
+    background-image: linear-gradient(to bottom right, rgba(1, 93, 199, 0.9), rgba(162, 0, 255, 0.9)), url("http://demos.casethemes.net/troma/wp-content/uploads/2018/10/bg-counter.jpg?id=158");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto; }
+  section#count-down-area .count-down {
+    padding: 5rem 0 5rem 0;
+    color: #ffff; }
+    section#count-down-area .count-down__icon {
+      font-size: 450%; }
+    section#count-down-area .count-down__number {
+      font-size: 210%;
+      font-weight: bold; }
+    section#count-down-area .count-down__sub {
+      font-weight: bold; }
 
 section#project-complete .project-complete {
-  margin-top: 5rem; }
+  margin-top: 7rem; }
   section#project-complete .project-complete__sub {
     font-size: 100%;
     font-weight: bold;
@@ -112,3 +123,36 @@ section#project-complete .project-complete {
     font-size: 210%;
     font-weight: bold;
     color: #6748ee; }
+
+section#project-complete .list-project {
+  margin-top: 4rem; }
+  section#project-complete .list-project__logo-app .logo-circle {
+    width: 5rem;
+    height: auto;
+    border-radius: 50%; }
+  section#project-complete .list-project__title-app {
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 1.3rem; }
+  section#project-complete .list-project__content-app {
+    color: #adaeb2;
+    margin-top: 1.3rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 4.5rem; }
+
+section#quote {
+  margin-top: 7rem; }
+  section#quote .background-quote {
+    background-image: linear-gradient(to right, rgba(1, 93, 199, 0.9), rgba(162, 0, 255, 0.9));
+    padding: 3rem 0 3rem 0; }
+    section#quote .background-quote .icon-quote {
+      font-size: 350%;
+      color: #ffff;
+      display: flex; }
+    section#quote .background-quote .content-quote {
+      color: #ffff;
+      font-size: 120%; }
+      section#quote .background-quote .content-quote__author {
+        font-weight: bold;
+        margin-top: 1.5rem; }
