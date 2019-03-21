@@ -1,0 +1,24 @@
+section#project-complete {
+
+    .view-more {
+
+        .btn-primary {
+
+            &.-button-style {
+                background-image: linear-gradient(to right, $color-1, $color-2);
+                border: 1px solid;             
+                border-radius: 20px;
+                height: 2.5rem;
+
+                cursor: pointer;               
+            }
+            
+            &.-button-style:hover {
+               background-color: red;
+            }
+
+        }
+
+    }
+    
+}
