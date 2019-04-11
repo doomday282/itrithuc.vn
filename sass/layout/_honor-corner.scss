@@ -1,0 +1,28 @@
+section#honor-corner {
+
+  .title-honor-corner {
+    margin: 7rem 0 4rem 0;
+
+    &__title {
+        font-size: $text-title;
+        font-weight: bold;
+        color: $primary;
+    }
+
+    &__sub-title {
+        font-size: $text-sub-title;
+        margin-top: 1rem;
+        color: $secondary;
+    }
+
+  }
+
+  .company {
+
+   &__banner {      
+    border-radius: 4%;    
+   }
+
+  }
+
+}

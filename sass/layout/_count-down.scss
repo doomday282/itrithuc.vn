@@ -12,7 +12,7 @@ section#count-down-area {
     }
 
     .count-down {
-        padding: 5rem 0 5rem 0;
+        padding: 7rem 0 7rem 0;
         color: $white;
 
         &__icon {
@@ -20,7 +20,7 @@ section#count-down-area {
         }
 
         &__number {
-            font-size: $text-title;
+            font-size: $number-size;
             font-weight: bold;
         }
 
